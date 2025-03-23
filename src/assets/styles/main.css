@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "JetBrains Mono", monospace;
+  transition: color 0.5s, background 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container.dark {
+  background: #fff;
+}
+
+#greeting.dark {
+  color: #000;
+}
+
+.link.dark {
+  background: #000;
+  color: #fff;
+}
+
+.top-element.dark {
+  background-color: rgba(0, 0, 0);
+  color: #fff;
+}
+
+.top-element {
+  position: absolute;
+  top: 20px; 
+  right: 30px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border: none;
+}
+
+
+.image img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.container {
+  height: 100vh;
+  background: #000000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: .5s;
+}
+
+#greeting {
+  margin-top: 20px;
+  transition: .5s;
+  color: #fff;
+} 
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  height: 190px;
+  justify-content: space-between;
+  margin-top: 20px;
+  transition: .5s;
+  gap: 10px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 12px; 
+  height: 40px;
+  width: 230px;
+  background: #fff;
+  border-radius: 15px;
+  transition: 0.5s;
+  position: relative;
+  opacity: 0.8;
+}
+
+.link:hover {
+  opacity: 1;
+  border-radius: 5px;
+}
+
+.link i {
+  font-size: 18px; 
+  position: absolute; 
+  left: 20px; 
+}
+
+.link p {
+  margin: 0;
+  text-align: center;
+  flex: 1;
+}
+
+.footer {
+  margin-top: 90px;
+}
